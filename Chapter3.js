@@ -73,6 +73,7 @@ console.log(strings.concat(strings2)) // 'Hellopooja'
 console.log(strings.replace('lo','p')) // 'Help'
 
 // Practice Question
-let fullName = prompt('Enter your full name');
+
+let fullName = prompt('Enter your full name without spaces');
 let username = `@${fullName}${fullName.length}`
 console.log(username)
