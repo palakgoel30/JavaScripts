@@ -34,3 +34,11 @@ console.log(prices)
 let footItems = ['Potato','Chips','Maggie','Green Tea'];
 footItems.push("Burger","Pizza");
 console.log(footItems);
+
+//practice Question1
+
+let companies = ["BLOOMBERG","Microsoft","IBM","Facebook"]
+console.log(companies.shift())
+console.log(companies.splice(2,1,"OLA"))
+companies.push("Amazon")
+console.log(companies)
