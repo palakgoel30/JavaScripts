@@ -40,4 +40,33 @@ function numberOfVowels(str){
     return count
 }
 
-console.log(numberOfVowels("Helloyuu"));
+console.log(numberOfVowels("Hello"));
+
+//Practise Question 2 using arrow function 
+let numberOfVow = (str) =>{
+    let count = 0
+    for(let i of str){
+        if((i ==='a')|| (i=== 'e')||(i ==='i')||(i ==='o')||(i==='u')){
+            count +=1
+        }
+    }
+    return count
+}
+
+console.log(numberOfVow("I Love My Work"))
+
+// ForEach Function :- callback function
+
+let arr = ["Pune","X",123];
+
+arr.forEach((val) => {
+    console.log(val);
+});
+
+//Practise Question
+
+let array = [6,7,9,3]
+
+array.forEach((num) =>{
+    console.log(num*num)
+})
